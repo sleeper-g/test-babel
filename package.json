@@ -1,0 +1,31 @@
+{
+  "name": "test-babel",
+  "version": "1.0.0",
+  "description": "use babel in project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleeper-g/test-babel.git"
+  },
+  "keywords": [
+    "babel"
+  ],
+  "author": "sleeper-g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sleeper-g/test-babel/issues"
+  },
+  "homepage": "https://github.com/sleeper-g/test-babel#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/preset-env": "^7.23.6"
+  },
+  "dependencies": {
+    "core-js": "^3.34.0"
+  }
+}
